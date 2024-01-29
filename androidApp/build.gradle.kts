@@ -44,5 +44,6 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     debugImplementation(libs.compose.ui.tooling)
 }
