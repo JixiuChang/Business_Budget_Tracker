@@ -1,6 +1,8 @@
 package com.example.businessbudgettracker.android
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,6 +16,16 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val imageButtonLeftTop = findViewById<ImageButton>(R.id.imageButtonLeftTop)
+        imageButtonLeftTop.setOnClickListener {
+            // Handle the click event
+        }
+
+        val imageButtonRightTop = findViewById<ImageButton>(R.id.imageButtonRightTop)
+        imageButtonRightTop.setOnClickListener {
+            // Handle the click event
+        }
     }
 }
 

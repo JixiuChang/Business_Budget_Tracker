@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Other string resources -->
+    <string name="left_button">Calendar</string>
+    <string name="right_button">Master Manager</string>
+</resources>

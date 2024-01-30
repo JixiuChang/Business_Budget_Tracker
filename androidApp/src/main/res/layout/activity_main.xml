@@ -7,21 +7,23 @@
     android:background="@android:color/white"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonLeftTop"
+    <ImageButton
+        android:id="@+id/imageButtonLeftTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Left Top"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="@string/left_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/buttonRightTop"
+    <ImageButton
+        android:id="@+id/imageButtonRightTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Right Top"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="@string/right_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginEnd="16dp"
