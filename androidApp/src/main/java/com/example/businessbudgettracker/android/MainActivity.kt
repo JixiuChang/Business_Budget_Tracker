@@ -19,7 +19,8 @@ class MainActivity : ComponentActivity() {
 
         val imageButtonLeftTop = findViewById<ImageButton>(R.id.imageButtonLeftTop)
         imageButtonLeftTop.setOnClickListener {
-            // Handle the click event
+            val intent = Intent(this, CalendarActivity::class.java)
+            startActivity(intent)
         }
 
         val imageButtonRightTop = findViewById<ImageButton>(R.id.imageButtonRightTop)
